@@ -1,5 +1,7 @@
-import axios from "axios"
+import axios from "axios";
+
 const instance = axios.create({
-    baseURL:"http://localhost:8000/api"
-})
-export default instance
+  baseURL: "https://task-manager-4cu9.onrender.com/api", // 👈 deployed backend
+});
+
+export default instance;
