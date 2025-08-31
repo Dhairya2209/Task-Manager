@@ -1,38 +1,39 @@
-# Installation
-Run the following command to clone the repository
-```
-git clone https://github.com/alokyadav1/mern-todo-app.git
-```
-Go to ```frontend``` and ```backend``` directory to install packages
-```
+# 📝 To-Do App (MERN Stack)
+
+This is a full-stack **To-Do application** built using the **MERN stack (MongoDB, Express, React, Node.js)**.  
+It allows users to manage their daily tasks with authentication and database storage.
+
+---
+
+## ⚙️ Installation Guide (Step by Step with Explanation)
+
+### 1. Install Dependencies
+The project is divided into two parts: **frontend** (React) and **backend** (Node.js + Express).
+
+- **Frontend** → Handles UI (React app)  
+- **Backend** → Handles API requests, authentication, and database (Node.js + Express + MongoDB)
+
+👉 First, go inside the frontend folder and install required packages:
+```bash
 cd frontend
 npm install
 ```
-```
+
+
+👉 Then, go inside the backend folder and install backend dependencies:
+```bash
 cd backend
 npm install
 ```
-# Configuration
-Create ```.env``` file inside ```backend``` directory and copy the following code
 
-```
-MONGO_URI=Your mongodb URI
-GMAIL_USERNAME=your gmail address 
-GMAIL_PASSWORD=password created inside 'App Password' section under google accounts setting
-PORT=8000
-JWT_SECRET=a random secret key eg. thisisasecretkey
-```
-# Run the App
-Go to ```backend``` and ```frontend``` directory and start the server
-```
+👉 Start the backend:
+```bash
 cd backend
 nodemon server
 ```
-```
+
+👉 Start the frontend:
+```bash
 cd frontend
 npm start
 ```
-# Live Preview
-Check live preview here [https://todo-app-b96a5.web.app/](https://todo-app-b96a5.web.app/)
-
-
