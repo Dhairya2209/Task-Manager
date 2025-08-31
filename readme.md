@@ -14,17 +14,26 @@ The project is divided into two parts: **frontend** (React) and **backend** (Nod
 - **Backend** → Handles API requests, authentication, and database (Node.js + Express + MongoDB)
 
 👉 First, go inside the frontend folder and install required packages:
+```bash
 cd frontend
 npm install
+```
+
 
 👉 Then, go inside the backend folder and install backend dependencies:
+```bash
 cd backend
 npm install
+```
 
 👉 Start the backend:
+```bash
 cd backend
 nodemon server
+```
 
 👉 Start the frontend:
+```bash
 cd frontend
 npm start
+```
